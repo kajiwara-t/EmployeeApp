@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/employeeList_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="社員一覧" />
+
+        <Button
+            android:id="@+id/workplaceOffice_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="現場（本社）" />
+
+        <Button
+            android:id="@+id/workplaceWho_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="現場（WHO）" />
+
+        <Button
+            android:id="@+id/workPlaceTsukiji_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="現場（築地）" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

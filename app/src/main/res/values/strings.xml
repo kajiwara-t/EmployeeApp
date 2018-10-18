@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EmployeeApp</string>
+    <string name="activity_workplace_office">WorkPlaceOffice</string>
+</resources>
